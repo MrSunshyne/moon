@@ -1,0 +1,270 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: url(/img/sky.d5a9c619.svg);
+  background-size: cover;
+}
+.cls-1 {
+  fill: #fccd62;
+}
+.cls-2 {
+  fill: #fcbc0a;
+}
+.cls-3 {
+  fill: #fdd78c;
+}
+.cls-7 {
+  fill: #b67512;
+}
+.cls-8 {
+  fill: #e7a425;
+}
+.cls-9 {
+  fill: #90601a;
+}
+.cls-12 {
+  fill: #eec376;
+}
+.cls-14 {
+  fill: #fcc639;
+}
+.cls-27 {
+  fill: #eca835;
+}
+.cls-28 {
+  fill: #8f9916;
+}
+.cls-31 {
+  fill: #f8930a;
+}
+.cls-35 {
+  fill: #fac845;
+}
+.cls-38 {
+  fill: #b35e2b;
+}
+.cls-44 {
+  fill: #fbddc4;
+}
+.cls-46 {
+  fill: #fbd5a3;
+}
+.cls-48 {
+  fill: #fbcf84;
+}
+.cls-51 {
+  fill: #547645;
+}
+.cls-52 {
+  fill: #d80f78;
+}
+.cls-53 {
+  fill: #cd9941;
+}
+.cls-55 {
+  fill: #fbc614;
+}
+.cls-57 {
+  fill: #face27;
+}
+.cls-60 {
+  fill: #fad13f;
+}
+.cls-63 {
+  fill: #f9d6bb;
+}
+.cls-64 {
+  fill: #ebbf98;
+}
+.cls-66 {
+  fill: #debaa0;
+}
+.cls-68 {
+  fill: #d4c1c6;
+}
+.cls-72 {
+  fill: #f1c785;
+}
+.cls-89 {
+  fill: #fcdac1;
+}
+.cls-111 {
+  fill: #facd38;
+}
+.cls-113 {
+  fill: #f8d05a;
+}
+.cls-125 {
+  fill: #f7d05f;
+}
+.cls-136 {
+  fill: #faddac;
+}
+.cls-140 {
+  fill: #f7c97e;
+}
+.cls-142 {
+  fill: #f0d796;
+}
+.cls-179 {
+  fill: #6f5b49;
+}
+.cls-181 {
+  fill: #a78a4d;
+}
+.cls-194 {
+  fill: #779d44;
+}
+.cls-195 {
+  fill: #e6b92d;
+}
+.cls-196 {
+  fill: #cb5689;
+}
+.scene[data-v-728fc3f2] {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+.image[data-v-728fc3f2] {
+  position: absolute;
+}
+.moon-wrapper[data-v-728fc3f2] {
+  animation: swing-data-v-728fc3f2 3s alternate infinite ease-in-out forwards;
+  --size: 600px;
+  transform-origin: 58% 0;
+  width: var(--size);
+  height: auto;
+  max-width: 600px;
+  left: 50%;
+  top: 20vh;
+  margin-left: calc(-1 * var(--size) / 2);
+  transition: transform 0.2s;
+}
+.moon-wrapper:hover #light01[data-v-728fc3f2],
+.moon-wrapper:hover #light05[data-v-728fc3f2],
+.moon-wrapper:hover #light09[data-v-728fc3f2],
+.moon-wrapper:hover #light14[data-v-728fc3f2],
+.moon-wrapper:hover #light17[data-v-728fc3f2] {
+  animation-name: blink-yellow-data-v-728fc3f2;
+  animation-duration: 1s;
+  animation-timing-function: steps(2);
+  animation-iteration-count: infinite;
+}
+.moon-wrapper:hover #light02[data-v-728fc3f2],
+.moon-wrapper:hover #light03[data-v-728fc3f2],
+.moon-wrapper:hover #light08[data-v-728fc3f2],
+.moon-wrapper:hover #light11[data-v-728fc3f2],
+.moon-wrapper:hover #light13[data-v-728fc3f2],
+.moon-wrapper:hover #light16[data-v-728fc3f2] {
+  animation-name: blink-green-data-v-728fc3f2;
+  animation-duration: 0.5s;
+  animation-timing-function: steps(2);
+  animation-iteration-count: infinite;
+}
+.moon-wrapper:hover #light04[data-v-728fc3f2],
+.moon-wrapper:hover #light06[data-v-728fc3f2],
+.moon-wrapper:hover #light07[data-v-728fc3f2],
+.moon-wrapper:hover #light10[data-v-728fc3f2],
+.moon-wrapper:hover #light12[data-v-728fc3f2],
+.moon-wrapper:hover #light15[data-v-728fc3f2],
+.moon-wrapper:hover #light18[data-v-728fc3f2] {
+  animation-name: blink-purple-data-v-728fc3f2;
+  animation-duration: 0.7s;
+  animation-timing-function: steps(2);
+  animation-iteration-count: infinite;
+}
+.moon-wrapper:active #Eye_Left[data-v-728fc3f2],
+.moon-wrapper:active #Eye_Right[data-v-728fc3f2],
+.moon-wrapper:focus #Eye_Left[data-v-728fc3f2],
+.moon-wrapper:focus #Eye_Right[data-v-728fc3f2] {
+  transform-origin: center center;
+  animation-name: eye;
+  animation-duration: 0.1s;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+  animation-iteration-count: 2;
+}
+@media screen and (max-width: 768px) {
+  .moon-wrapper[data-v-728fc3f2] {
+    --size: 300px;
+  }
+}
+
+@keyframes eye {
+  0% {
+    transform: scaleY(100%);
+  }
+
+  100% {
+    transform: scaleY(0);
+  }
+}
+@keyframes eye-data-v-728fc3f2 {
+  0% {
+    transform: scaleY(100%);
+  }
+  1% {
+    transform: scaleY(0);
+  }
+  2% {
+    transform: scaleY(100%);
+  }
+  20% {
+    transform: scaleY(100%);
+  }
+  21% {
+    transform: scaleY(0);
+  }
+  22% {
+    transform: scaleY(100%);
+  }
+  98% {
+    transform: scaleY(100%);
+  }
+  100% {
+    transform: scaleY(0);
+  }
+}
+@keyframes swing-data-v-728fc3f2 {
+  0% {
+    transform: rotateY(-5deg);
+  }
+  to {
+    transform: rotate(5deg);
+  }
+}
+@keyframes blink-yellow-data-v-728fc3f2 {
+  0% {
+    fill: #fffb00;
+  }
+  to {
+    reset: fill;
+  }
+}
+@keyframes blink-green-data-v-728fc3f2 {
+  0% {
+    fill: #0ab604;
+  }
+  to {
+    reset: fill;
+  }
+}
+@keyframes blink-purple-data-v-728fc3f2 {
+  0% {
+    fill: #ff00bf;
+  }
+  to {
+    reset: fill;
+  }
+}
+.sky-wrapper[data-v-728fc3f2] {
+  object-fit: cover;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
