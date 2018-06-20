@@ -145,33 +145,51 @@ html {
   transition: transform 0.2s;
 }
 .moon-wrapper:hover #light01[data-v-728fc3f2],
+.moon-wrapper:active #light01[data-v-728fc3f2],
 .moon-wrapper:hover #light05[data-v-728fc3f2],
+.moon-wrapper:active #light05[data-v-728fc3f2],
 .moon-wrapper:hover #light09[data-v-728fc3f2],
+.moon-wrapper:active #light09[data-v-728fc3f2],
 .moon-wrapper:hover #light14[data-v-728fc3f2],
-.moon-wrapper:hover #light17[data-v-728fc3f2] {
+.moon-wrapper:active #light14[data-v-728fc3f2],
+.moon-wrapper:hover #light17[data-v-728fc3f2],
+.moon-wrapper:active #light17[data-v-728fc3f2] {
   animation-name: blink-yellow-data-v-728fc3f2;
   animation-duration: 1s;
   animation-timing-function: steps(2);
   animation-iteration-count: infinite;
 }
 .moon-wrapper:hover #light02[data-v-728fc3f2],
+.moon-wrapper:active #light02[data-v-728fc3f2],
 .moon-wrapper:hover #light03[data-v-728fc3f2],
+.moon-wrapper:active #light03[data-v-728fc3f2],
 .moon-wrapper:hover #light08[data-v-728fc3f2],
+.moon-wrapper:active #light08[data-v-728fc3f2],
 .moon-wrapper:hover #light11[data-v-728fc3f2],
+.moon-wrapper:active #light11[data-v-728fc3f2],
 .moon-wrapper:hover #light13[data-v-728fc3f2],
-.moon-wrapper:hover #light16[data-v-728fc3f2] {
+.moon-wrapper:active #light13[data-v-728fc3f2],
+.moon-wrapper:hover #light16[data-v-728fc3f2],
+.moon-wrapper:active #light16[data-v-728fc3f2] {
   animation-name: blink-green-data-v-728fc3f2;
   animation-duration: 0.5s;
   animation-timing-function: steps(2);
   animation-iteration-count: infinite;
 }
 .moon-wrapper:hover #light04[data-v-728fc3f2],
+.moon-wrapper:active #light04[data-v-728fc3f2],
 .moon-wrapper:hover #light06[data-v-728fc3f2],
+.moon-wrapper:active #light06[data-v-728fc3f2],
 .moon-wrapper:hover #light07[data-v-728fc3f2],
+.moon-wrapper:active #light07[data-v-728fc3f2],
 .moon-wrapper:hover #light10[data-v-728fc3f2],
+.moon-wrapper:active #light10[data-v-728fc3f2],
 .moon-wrapper:hover #light12[data-v-728fc3f2],
+.moon-wrapper:active #light12[data-v-728fc3f2],
 .moon-wrapper:hover #light15[data-v-728fc3f2],
-.moon-wrapper:hover #light18[data-v-728fc3f2] {
+.moon-wrapper:active #light15[data-v-728fc3f2],
+.moon-wrapper:hover #light18[data-v-728fc3f2],
+.moon-wrapper:active #light18[data-v-728fc3f2] {
   animation-name: blink-purple-data-v-728fc3f2;
   animation-duration: 0.7s;
   animation-timing-function: steps(2);
